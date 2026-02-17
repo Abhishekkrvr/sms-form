@@ -11,14 +11,15 @@ export default function App() {
 
   return (
     <div>
+      <h1>User Form</h1>
       <label>Name</label>
-      <input type="text" name="name" placeholder="Enter your name" />
+      <input type="text"  placeholder="Enter your name" />
 
-      <label>E-Mail Address</label>
-      <input type="email" name="email" placeholder="Email" />
+      <label>E-Mail</label>
+      <input type="email" placeholder="Enter your email" />
 
-      <label>Phone Number</label>
-      <input type="text" name="number" placeholder="Number" />
+      <label>Number</label>
+      <input type="text" placeholder="Enter your number" />
     </div>
   );
 }
